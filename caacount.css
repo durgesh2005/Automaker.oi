@@ -1,0 +1,39 @@
+body {
+    padding:0px;
+    margin:0px;
+    background-image:url('3mine.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.place {
+    top:30%;
+    left:50%;
+    transform:translate(-50% , -50%) ;
+    position:absolute;
+    background:black;
+    width:550px;
+    text-align:center;
+    display: inline-block;
+    color:white;
+    padding:10px;
+    opacity:0.9;
+    margin:0px;
+}
+.place input {
+    background:none;
+    border:2px solid white;
+    border-radius:30px;
+    padding:7px 0px;
+    margin:5px 0px ;
+    width:40%;
+    color:white;
+    float:left;
+    text-align:center;
+}
+
+.place p {
+       padding:0px;
+       float:left;
+}
